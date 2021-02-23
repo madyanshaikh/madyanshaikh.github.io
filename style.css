@@ -1,0 +1,302 @@
+#mybg {
+    background-image: url(21-2-2021bt/background.png);
+    height: 100vh;
+    background-size: cover;
+    position: absolute;
+    z-index: -100;
+    top: 0;
+    left: 0;
+    right: 0;
+    position: fixed;
+}
+
+#nvbar {
+    background-color: rgba(33, 105, 105, 0.151);
+    width: 70px;
+    height: 100vh;
+    
+    /* position: absolute; */
+}
+
+nav ul li {
+    
+    font-size: 30px;
+    font-weight: bold;
+    border: 1px solid rgba(245, 245, 245, 0.450);
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    margin-top: 5px;
+    transition:0.30s;
+    margin-top: 20px;
+
+}
+#c1:hover,#c2:hover,#c3:hover,#c4:hover{
+    transform: scale(1.1);
+}
+nav ul li a{
+    margin-top: -5px;
+}
+nav ul{
+   
+    
+    box-sizing: border-box;
+}
+
+
+.mover{
+    position: absolute;
+    z-index: 5  ;
+    right: 10px;
+
+    top: 8%;
+}
+.oldiv{
+   
+    padding-right:10px ;
+}
+
+
+#c1 {
+    background-color:rgba(48, 141, 160, 0.151);
+}
+
+#c2 {
+    
+    background-color:rgba(85, 85, 85, 0.151);
+}
+
+#c3 {
+    
+    background-color: rgba(17, 66, 87, 0.151);
+}
+
+#c4 {
+    background-color: rgba(0, 0, 0, 0.151);
+}
+
+
+
+
+
+#mycollapse b {
+    color: slategray;
+    margin-top: -20px;
+}
+
+.heading1 {
+    font-weight: bold;
+    color: whitesmoke;
+    position: absolute;
+    top: 5%;
+    left: 10%;
+}
+#jmbo1{
+    position: absolute;
+    top: 22%;
+    left: 0;
+    right: 0;
+    background: transparent;
+    padding-left: 10%;
+    z-index: 2;
+    box-sizing: border-box;
+    
+    
+    
+}
+#btn {
+    font-size: 25px;
+    color: whitesmoke;
+    position: absolute;
+    right: 5px;
+    top: 4%;
+    
+    outline: none;
+    border: 0px solid;
+}
+#btn1{
+    
+   
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 50px;
+    background: transparent;
+    color: whitesmoke;
+    outline: none;
+    font-weight: 600;
+    margin-left: 10px;
+    letter-spacing: 1px;
+    transition: 0.30s;
+    margin-top: 20px;
+    position: absolute;
+    z-index: 5;
+}
+#btn1:hover,#btn2:hover,#btn5:hover{
+    padding-left: 40px;
+    padding-right:40px ;
+}
+#btn2{
+    position: absolute;
+    top: 4%;
+    transition: 0.30s   ;
+    right: 100PX;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 50px;
+    background: transparent;
+    color: whitesmoke;
+    outline: none;
+    font-weight: 600;
+    margin-left: 10px;
+    letter-spacing: 1px;
+}
+#logo1 img,#logo2 img,#logo3 img,#logo4 img,#logo5 img{
+  
+    cursor: pointer;
+    height: 50px;
+    width: 50px;
+}
+#logo1,#logo2,#logo3,#logo4,#logo5{
+    transition: 0.30s;
+}
+#logo1:hover,#logo2:hover,#logo3:hover,#logo4:hover,#logo5:hover{
+    transform: scale(1.1);
+}
+
+@media screen and (max-width:1366px)
+{
+    #jmbo1{
+        z-index: 3;
+        top: 10%;
+        left: -9%;
+        transform: scale(0.75);
+    }
+    #whole-body{
+        position: absolute;
+        bottom: -19.50%;
+        z-index: 2;
+        transform: scale(0.70);
+    }
+    nav ul li{
+        transform: scale(0.75);
+        margin-top: 0;
+    }
+    #btn1{
+        position: absolute;
+        bottom: 0;
+        font-size: 20px;
+ 
+                
+ padding: 12px 25px 12px 25px;
+ 
+ 
+     }
+
+ 
+    #logo1,#logo2,#logo3,#logo4,#logo5{ 
+        transition: 0.30s;
+        margin-top: -15px;
+        transform: scale(0.75);
+
+    }
+    #mybg button{
+        transform: scale(0.85);
+    }
+    .heading1{
+        margin-left: 25px;
+    }
+    .mover{
+        margin-top: 20px;
+    }
+
+}
+@media screen and (max-width:895px)
+{
+    #jmbo1{
+        top: 5%;
+        left: -6%;
+        transform: scale(0.80);
+    }
+    #btn1{
+        position: absolute;
+        bottom: 0;
+        font-size: 20px;
+ 
+                
+ padding: 12px 25px 12px 25px;
+ 
+ 
+     }
+
+}
+#btn5{
+    display: none;
+}
+@media screen and (max-width:600px){
+    #jmbo1{
+        display: none;
+    }
+    #whole-body{
+        bottom: 10%;
+    }
+    #btn5{ 
+        
+        outline: none;
+        font-weight: 600;
+        letter-spacing: 1px;
+        color: whitesmoke;
+        text-align: center;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        padding-left: 20px;
+        padding-right: 20px;
+        border-radius: 50px;
+        background: transparent;
+        position: absolute;
+        
+        left: 5%;
+        right: 0;
+        bottom: 10%;
+        display: block;
+    }
+
+    
+}
+
+/* ---------------------=-================----------------------- */
+
+
+
+/* @keyframes mymove{
+
+    0%{transform:translatey(-1em);
+        
+
+    }
+    20%{ opacity: 0.75;
+        
+    }
+    40%{ opacity: 0.55;
+        
+    }
+    60%{ opacity: 0.35;
+        
+    }
+    75%{
+        
+        opacity: 0.25;
+    }
+    100%{transform:translatey(-60em);
+       
+        opacity: 0.5;
+
+    }
+
+} */
